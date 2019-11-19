@@ -1,0 +1,51 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 50px 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  background: #222;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid rgba(161, 127, 240, 0.9);
+  overflow: hidden;
+}
+
+h1 {
+  color: rgba(161, 127, 240, 0.9);
+  margin-bottom: 0px;
+}
+
+h2 {
+  color: rgba(127, 198, 240, 0.9);
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.section {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.skill {
+  width: 64px;
+  height: 64px;
+  margin: 0 10px;
+}
+
+.experience {
+  text-align: center;
+}
